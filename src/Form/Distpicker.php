@@ -95,7 +95,7 @@ class Distpicker extends Field
      */
     public function render()
     {
-        $this->attribute('data-value-type', 'code');
+        $this->attribute('data-value-type', 'name');
 
         $province = old($this->column['province'], Arr::get($this->value(), 'province')) ?: Arr::get($this->placeholder,
             'province');
