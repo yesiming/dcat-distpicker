@@ -1,15 +1,15 @@
 {
-    "name": "super-eggs/dcat-distpicker",
+    "name": "yesiming/dcat-distpicker",
     "description": "Distpicker extension for dcat-admin",
     "alias": "省市区三级联动组件",
     "type": "library",
     "keywords": ["dcat-admin", "extension", "distpicker"],
-    "homepage": "https://github.com/super-eggs/dcat-distpicker",
+    "homepage": "https://github.com/Yesiming/dcat-distpicker",
     "license": "MIT",
     "authors": [
         {
-            "name": "SuperEggs",
-            "email": "supereggs@88.com"
+            "name": "Yesiming",
+            "email": "simon@yesiming.com"
         }
     ],
     "require": {
@@ -18,14 +18,14 @@
     },
     "autoload": {
         "psr-4": {
-            "SuperEggs\\DcatDistpicker\\": "src/"
+            "Yesiming\\DcatDistpicker\\": "src/"
         }
     },
     "extra": {
-        "dcat-admin": "SuperEggs\\DcatDistpicker\\DcatDistpickerServiceProvider",
+        "dcat-admin": "Yesiming\\DcatDistpicker\\DcatDistpickerServiceProvider",
         "laravel": {
             "providers": [
-                "SuperEggs\\DcatDistpicker\\DcatDistpickerServiceProvider"
+                "Yesiming\\DcatDistpicker\\DcatDistpickerServiceProvider"
             ]
         }
     }
